@@ -1,4 +1,4 @@
-name "developer ec2"
+name "developer_ec2"
 description "For Developer EC2 machines"
 run_list(
   "recipe[irc]",
