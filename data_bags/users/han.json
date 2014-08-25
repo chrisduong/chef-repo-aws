@@ -1,0 +1,10 @@
+{
+  "id"       : "han",
+  "comment"  : "Han Solo",
+  "home"     : "/opt/carbonite",
+  "groups"   : ["rebels", "scoundrels", "sysadmin"],
+  "ssh_keys" : [
+    "AAA123...xyz== foo",
+    "AAA456...uvw== bar"
+  ]
+}

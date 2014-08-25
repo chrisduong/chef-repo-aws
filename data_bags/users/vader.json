@@ -1,0 +1,8 @@
+{
+  "id"       : "vader",
+  "comment"  : "Anakin was a crybaby",
+  "groups"   : ["empire", "siths", "sysadmin" ],
+  "ssh_keys" : [
+    "AAA789...abc== baz"
+  ]
+}

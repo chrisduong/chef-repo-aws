@@ -1,0 +1,7 @@
+{
+  "id"       : "chewbacca",
+  "comment"  : "What A Wookie!",
+  "home"     : "/home/kashyyyk",
+  "groups"   : ["rebels", "sidekicks"],
+  "action"   : ["create", "lock"]
+}

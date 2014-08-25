@@ -1,0 +1,5 @@
+{
+  "id"       : "leia",
+  "groups"   : ["rebels", "your_worship"],
+  "action"   : "remove"
+}
