@@ -23,10 +23,17 @@ users_manage "rebels" do
   action [ :remove, :create ]
 end
 
+
+
 %w( scoundrels sidekicks siths empire sysadmin ).each do |group|
   users_manage group  do
     action [ :remove, :create ]
   end
+end
+
+#Making sure root can log in with its ssh key
+user "root" do
+  group "sysadmin"
 end
 
 node.default['authorization']['sudo']['passwordless'] = true
