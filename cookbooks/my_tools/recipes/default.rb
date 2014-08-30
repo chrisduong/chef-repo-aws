@@ -22,12 +22,12 @@ package "screen" do
 end
 
 case node['platform_family']
-when 'debian' do
+when 'debian' 
   package "vim-nox" do
     action :install
   end
 when 'rhel', 'fedora'
-  package "vim-enhanced"
+  package "vim-enhanced" do
     action :install
   end
 end
