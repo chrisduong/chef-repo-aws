@@ -18,12 +18,12 @@
 #
 
 wp_setup "extracting wordpress" do
-  wp_path "node['wordpress']['path']"
-  wp_url  "node['wordpress']['url']"
+  wp_path node['wordpress']['path']
+  wp_url  node['wordpress']['url']
   action :extract
 end
 
 wp_setup "deleting the installation file" do
-  wp_path "node['wordpress']['path']"
+  wp_path node['wordpress']['path']
   action :remove
 end
