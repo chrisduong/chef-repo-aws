@@ -1,0 +1,17 @@
+{
+  "name": "laz_staging",
+  "description": "",
+  "cookbook_versions": {
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "nginx": {
+      "listen": [
+        "71", "default_server"
+      ]
+    }
+  }
+}
